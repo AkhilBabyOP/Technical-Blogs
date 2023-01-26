@@ -383,6 +383,43 @@ It contains the following;
 
 
     
- ### Condiions and If-else Statements
+ ### Conditions and If-else Statements
     
-    
+   > They are basically used when we want to execute a particular block of statements when a condition is met true...
+   > They are divided into..
+        > if (executes only when condition is true..)
+        > if..else (code under if block executes when condition is met true or else the code under else block executes)
+        > elif (else..if ladder) (when multiple conditions are present we use this variant)
+
+2.2 code
+if - condition
+        
+        A = 5
+        B = 10
+        
+        if A < B:
+            print("A is less than B")
+
+else - condition
+
+        A = 5
+        B = 10
+        
+        if A < B:
+            print("A is less than B")
+       
+        else:
+            print("A is greater than B")
+            
+elif - condition
+        
+        A = 5
+        B = 5
+        
+        if A < B:
+            print("A is less than B")
+        elif A == B:
+            print("A and B are equal")
+        else:
+            print("A is greater than B")
+            
